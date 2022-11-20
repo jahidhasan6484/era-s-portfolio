@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+* {
+    font-family: 'Jost', sans-serif;
+    /* background: #FFF9EC !important; */
+}
+
+.home {
+    background: #e9e9e9;
+    background-image: url(./svg/animated.svg);
+    background-repeat: no-repeat;
+}
+
+.home_row {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home_first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.experience_row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.status {
+    display: flex;
+    gap: 15px;
+}
+
+.service_image {
+    width: 30px;
+    height: 30px;
+}
+
+.inside_services_card {
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 7px;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.inside_services_card:hover {
+    transform: translate(0, -5px);
+}
+
+.inside_services_card h3 {
+    color: orange;
+    font-weight: 600;
+}
+
+.highlight {
+    color: orangered;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.section{
+    padding: 5rem 0;
+}
+
+.section_title{
+    text-align: center;
+    margin-bottom: 2rem;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
