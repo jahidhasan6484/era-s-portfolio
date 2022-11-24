@@ -93,6 +93,14 @@ li {
     justify-content: center;
 }
 
+.hero_first {
+    text-align: center;
+}
+
+.hero_second{
+    text-align: center;
+}
+
 .hero_first h6 {
     font-size: 1.25rem;
     letter-spacing: 5px;
@@ -111,22 +119,21 @@ li {
     letter-spacing: 2px;
 }
 
-.download {
-    margin-top: 20px;
-    border: 1px solid #000;
-    width: 180px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    letter-spacing: 1px;
-    text-decoration: none;
-    border-radius: 5px;
+.resume{
+    margin-top: 30px;
+}
+
+.download_resume {
     color: #000;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border: 1px solid #000;
+    padding: 8px 30px;
+    border-radius: 5px;
     transition: 0.3s;
 }
 
-.download:hover {
+.download_resume:hover {
     background: #000;
     color: #fff;
 }
